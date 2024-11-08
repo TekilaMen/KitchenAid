@@ -1,9 +1,9 @@
 <template>
   <div class="card">
-    Team Name
+    Our Services
   </div>
   <div class="card description">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    We offer a wide range of culinary services to help you in your kitchen journey.
   </div>
 </template>
 
@@ -11,7 +11,7 @@
   import { defineComponent } from 'vue'
 
   export default defineComponent({
-    name: 'About',
+    name: 'Services',
   })
 </script>
 
