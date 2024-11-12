@@ -22,13 +22,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 30px 60px;
-  background: rgba(0, 0, 0, 0.7); /* Darker background */
+  background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   color: #ffffff;
   font-size: 64px;
   text-align: center;
   backdrop-filter: blur(5px);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .slogan {
@@ -39,6 +42,8 @@
   color: #ffffff;
   font-size: 24px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2px;
 }
 </style>

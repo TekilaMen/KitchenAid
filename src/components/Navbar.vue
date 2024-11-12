@@ -23,7 +23,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8); /* Darker background */
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   padding: 15px 30px;
   z-index: 1000;
@@ -45,15 +45,19 @@
 .navbar ul li a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-family: 'Space Grotesk', sans-serif;  /* Changement ici */
+  font-weight: 500;  /* Ajout du font-weight */
+  letter-spacing: 0.5px;  /* Ajout du letter-spacing */
   padding: 10px 20px;
   border-radius: 5px;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar ul li a:hover {
-  background: rgba(255, 255, 255, 0.2); /* Slightly more opaque background on hover */
-  color: #000000; /* Text color on hover */
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  transform: translateY(-2px);  /* Petit effet de survol */
+  cursor: pointer;
 }
 </style>
