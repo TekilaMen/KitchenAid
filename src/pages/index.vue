@@ -1,7 +1,7 @@
 <template>
   <div class="spline-background">
     <Navbar @change-component="changeComponent" />
-    <spline-viewer url="https://prod.spline.design/rRgk6Fdd5Vlp3JcE/scene.splinecode" />
+    <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/rRgk6Fdd5Vlp3JcE/scene.splinecode" />
     <Home v-if="activeComponent === 'home'" />
     <About v-if="activeComponent === 'about'" />
     <Services v-if="activeComponent === 'services'" />
